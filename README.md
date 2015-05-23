@@ -1,11 +1,8 @@
 # jsterm
-jsterm is a terminal simulator that uses a JSON filesystem. To see it in use,
-check out [clarkduvall.com](http://clarkduvall.com).
+jsterm is a terminal simulator that uses a JSON filesystem forked courtesy of its creator [Clark Duvall](https://github.com/clarkduvall/jsterm).
 
-## Disclaimer
-Most of this was written awhile ago when I knew JavaScript about as well as I
-know Spanish (which is a little, but not much). It is due for a rewrite with
-some cool new features like pipes, writable files, and other magic.
+# My additions
+I have some additions I'd like to implement aside from modifying it. In the meantime you can see my changes [here](http://crptq.bitnamiapp.com/).
 
 ## How To Use
 At the bottom of the [js/jsterm.js](js/jsterm.js) file,
@@ -50,6 +47,3 @@ This is a text file.
 http://google.com
 ```
 - Image file: can be any image file with a standard extension (e.g. .png, .jpg)
-
-## Attribution
-If you use jsterm, it would be great if you could link to this GitHub repo. Thanks!
