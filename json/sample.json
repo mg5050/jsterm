@@ -22,7 +22,17 @@
                "name": "resume",
                "type": "exec",
                "contents": "https://web.njit.edu/~mg254/na_resume.pdf"
-            }
+            },
+	    {
+		"name": "GitHub",
+		"type": "exec",
+		"contents": "https://github.com/mg5050"
+	    },
+	    {
+		"name": "LinkedIn",
+		"type": "exec",
+		"contents": "https://linkedin.com/in/mgonza50"
+	    }
          ]
       }
    ]

@@ -195,13 +195,13 @@ COMMANDS.tree = function(argv, cb) {
 COMMANDS.help = function(argv, cb) {
    this._terminal.write
 	(
-		'If you would like you can navigate by clicking on file or directory names.<br>'+
-		'You may also type commands in the terminal.<br><br>'
+		'Navigate by clicking on file or directory names.<br>'+
+		'Console commands are also available.<br><br>'
 	);
-   this._terminal.write('Commands are:<br>');
+   this._terminal.write('commands:<br>');
    for (var c in this._terminal.commands) {
       if (this._terminal.commands.hasOwnProperty(c) && !c.startswith('_'))
-         this._terminal.write(c + '  ');
+         this._terminal.write(c + ' ');
    }
    cb();
 }
