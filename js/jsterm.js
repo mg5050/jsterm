@@ -494,15 +494,10 @@
    var term = Object.create(Terminal);
    term.init(CONFIG, '/json/sample.json', COMMANDS, function() {
       term.enqueue('login')
-          .enqueue('clark')
+          .enqueue('user')
           .enqueue('******')
-          .enqueue('cat file1')
+          .enqueue('cat README')
           .enqueue('help')
-          .enqueue('ls -l')
-          .enqueue('cd dir1/foo')
-          .enqueue('ls')
-          .enqueue('cd ../..')
-          .enqueue('ls dir1/foo')
           .enqueue('tree')
           .begin();
    });

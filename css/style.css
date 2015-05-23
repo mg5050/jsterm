@@ -39,12 +39,12 @@ div.jsterm {
 }
 
 div.jsterm .host, div.jsterm .host a {
-   color: #5555ff;
+   color: #003399;
    font-weight: bold;
 }
 
 div.jsterm .user, div.jsterm .user a {
-   color: #ff5555;
+   color: white;
    font-weight: bold;
 }
 

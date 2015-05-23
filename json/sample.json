@@ -3,10 +3,10 @@
    "type": "dir",
    "contents": [
       {
-         "name": "file1",
+         "name": "README",
          "type": "text",
-         "contents": "Hello World!",
-         "description": "FOOO"
+         "contents": "<br>This is my personal website. It is based on jsterm which I've forked courtesy of its original creator <span class='exec'><a href='https://github.com/clarkduvall/jsterm'>Clark Duvall</a></span>. Here you can find my resume, some of my works, and links to other pages.<br><br>Feel free to look around.<br><br>All the best,<br>Michael<br><br>",
+         "description": "readme file"
       },
       {
          "name": "pic.jpg",
@@ -15,25 +15,13 @@
          "caption": "What a beautiful penguin."
       },
       {
-         "name": "dir1",
+         "name": "docs",
          "type": "dir",
          "contents": [
             {
-               "name": "file2",
-               "type": "text",
-               "contents": "foo"
-            },
-            {
-               "name": "foo",
-               "type": "dir",
-               "contents": [
-                  {
-                     "name": "file3",
-                     "type": "exec",
-                     "contents": "http://google.com",
-                     "description": "blahblah"
-                  }
-               ]
+               "name": "resume",
+               "type": "exec",
+               "contents": "https://web.njit.edu/~mg254/na_resume.pdf"
             }
          ]
       }
